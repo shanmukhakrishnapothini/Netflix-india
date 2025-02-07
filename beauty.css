@@ -135,6 +135,11 @@
     align-items: center;
     display: flex;
 }
+.laptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .laptop>img{
     padding: 43px;
     border-radius: 20px;
