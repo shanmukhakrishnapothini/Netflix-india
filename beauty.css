@@ -2,7 +2,7 @@
 .front{
     width: auto;
     background-color: black;
-    height: auto;
+    height: 850px;
     background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -47,11 +47,11 @@
 }
 .secound{
     width: auto;
-    height: 450px;
+    height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 280px;
     background-color: rgba(0, 0, 0, 0.39);
     color: white;
 }
@@ -128,7 +128,7 @@
 .front3{
     width: 250;
     padding: 5px 10px;
-    height: 200px;
+    height: 300px;
     background-color: black;
     padding-top: 10px;
     justify-content: space-around;
@@ -139,23 +139,24 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 .laptop>img{
     padding: 10px;
     border-radius: 20px;
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
+    padding-right: 3px;
     object-fit: cover;
 }
 .mobile{
     display: none;
 }
 .cont{
-    width: 200px;
-    height: 300px;
+    width: 260px;
+    height: 250px;
+    margin-top: 30px;
     font-weight:lighter ;
-    margin: 10px;
     font-size: 10px;
     color: white;
     background-color:#1a2145;
@@ -168,18 +169,20 @@
     align-items: center;
     background-color: black;
     width: auto;
-    padding: 10px 65px;
+    padding: 0px 55px 0px 65px;
     height: auto;
     
 }
 .cont>h1{   
     font-size:x-large;
     font-weight: normal;
-    padding-top: 20px;
+    padding:10px;
+
 }
 .cont>h2{
     font-size: medium;
     font-weight: normal;
+    padding:10px;
 }
 .fifth{
     align-items: center;
@@ -187,14 +190,16 @@
     width: 100%;
     height: auto;
     background-color: black;
-    padding-top: 40px;
-    padding-bottom: 50px; 
     margin: 0px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 75px;
+    padding-bottom: 20px;
 }
 .a{
     
     background-color: #414141;
-    width: 82%;
+    width: 90%;
     height: 80px;
     display: flex;
     align-items: center;
@@ -323,6 +328,9 @@ body{
     height: auto;
 }
 @media(max-width:576px){
+    .front{
+        height: 300px;
+    }
     .first{
         width: auto;
         height: auto;
@@ -356,11 +364,11 @@ body{
     }
     .secound{
         width: auto;
-        height: auto;
+        height: 300px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 0px;
+        padding-top: 20px;
         background-color: rgba(0, 0, 0, 0.39);
         color: white;
     }
@@ -429,6 +437,8 @@ body{
         background-color: black;
         padding-top: 40px;
         padding-bottom: 50px; 
+        padding-left: 10px;
+        padding-right: 0px;
         margin: 0px;
     }
     .a{
